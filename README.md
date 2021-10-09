@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 ## Linear Regression to Predict MPG
-vehicle_length and ground_clearance provided a non-random amount of variance to the mpg values in the dataset as these variables were less than 0.05, in other words, were statistically significant. The slope is not considered to be zero, also since there is a significant linear relationship between the DV & IV’s, the slope won’t equal 0. This linear model predicts mpg of MechaCar effectively as the overall p-value is less than 0.05, thus is statistically significant in predicting mpg.
+Vehicle_length and ground_clearance provide a non-random amount of variance to the mpg values in the dataset as these variables were less than 0.05, in other words, were statistically significant. The slope is not considered to be zero, also since there is a significant linear relationship between the DV & IV’s, the slope won’t equal 0. This linear model predicts mpg of MechaCar effectively as the overall p-value is less than 0.05, thus is statistically significant in predicting mpg.
 
 <img width="899" alt="Deliverable 1" src="https://user-images.githubusercontent.com/86024512/136638302-f202a004-a0de-47a8-b5d9-cf270884c32f.png">
 
@@ -18,13 +18,11 @@ The p-value across all manufacturing lots is 0.06028. Since our significance is 
 <img width="553" alt="Screen Shot 2021-10-08 at 9 04 28 PM" src="https://user-images.githubusercontent.com/86024512/136638441-054ef0d0-bd88-4504-8b5f-213dc691b0e3.png">
 
 ## Study Design: MechaCar vs Competition
-In an study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers this mock study would be reviewing the following three metrics: 
+In an study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers this mock study would review the following three metrics: 
 City efficiency, cost, and safety rating.
 
 H0: There is no statistical significant difference on the metrics between MechaCar and the competition
 
 Ha: The is statistical significant difference on the metrics between MecharCar and the competition.
 
-In order to test the hypothesis, a two sample t-test would be used to determine whether the means of two samples are statistically different.
-
-The data needed to run the statistical test is the cost, city efficiency mileage, and safety rating data from 100 vehicles.
+In order to test the hypothesis, a two sample t-test would be used to determine whether the means of two samples are statistically different. The data needed to run the statistical test is the cost, city efficiency mileage, and safety rating data from 100 vehicles.
